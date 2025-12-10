@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Interactive JavaScript Mini-Website</h1>
+</header>
+
+<main>
+
+    <!-- Theme Switcher -->
+    <section class="feature-box">
+        <h2>Theme Switcher</h2>
+        <button id="themeBtn">Switch to Dark Mode</button>
+    </section>
+
+    <!-- Form Validation -->
+    <section class="feature-box">
+        <h2>Sign Up Form</h2>
+        <form id="signupForm">
+            <label>Name:</label>
+            <input type="text" id="name"><br>
+
+            <label>Email:</label>
+            <input type="email" id="email"><br>
+
+            <label>Password:</label>
+            <input type="password" id="password"><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Image Change on Click -->
+    <section class="feature-box">
+        <h2>Image Click Changer</h2>
+        <img id="myImage" src="https://via.placeholder.com/200" alt="Sample Image">
+        <br>
+        <button id="changeImgBtn">Change Image</button>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
